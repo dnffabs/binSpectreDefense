@@ -21,9 +21,9 @@ def disassemble_main_function(binary_path,function_name):
         if not function_symbol:
             print("No 'victim_function' function found in the symbol table!")
             return
-        # 获取函数地址和大小
-        func_addr = function_symbol['st_value']
-        func_size = function_symbol['st_size']
+
+        func_addr = function_symbol['st_value'] # 函数地址
+        func_size = function_symbol['st_size'] # 函数大小
         print(f"'{function_name}' function found at 0x{func_addr:x}, size {func_size} bytes")
 
         # 查找函数所在的节
