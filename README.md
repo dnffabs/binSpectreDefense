@@ -20,8 +20,8 @@ ARM架构
 | 设备                  |       设备版本       | 说明                  | 官网                               |
 |---------------------|:--------------:|---------------------| --------------------------------------- |
 | kali              | >=2021.1       | 操作系统        | [进入](https://old.kali.org/arm-images/)  |
-| python            |     >=3.8      | python环境             | [进入](http://www.mybatis.org)                  |  
-| clang       |     >=9.0.1-14     | clang编译器       | [进入](https://baomidou.com/)                   | 
+| python            |     >=3.8      | python环境             | [进入](https://www.python.org/)                  |  
+| clang       |     >=9.0.1-14     | clang编译器       | [进入](https://clang.llvm.org/)                   | 
 
 
 ## 实验测试

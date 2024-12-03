@@ -43,7 +43,6 @@ def disassemble_main_function(binary_path,function_name):
         for instruction in md.disasm(func_data, func_addr):
             print(f"0x{instruction.address:08x}:\t{instruction.mnemonic}\t{instruction.op_str}")
 
-
 if __name__ == "__main__":
 
     ####在命令行输入二进制文件路径，如：python armDisassembly.py ./spectre
