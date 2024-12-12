@@ -3,7 +3,7 @@ protect executable files under ARM architecture against spectre
 ***
 We used binary rewriting techniques to defend against the Spectre attack on the ARM architecture.
 ## 项目简介
-本项目可以实现在ARM架构下使用retrowrite工具实现对二进制文件的插桩从而防御spectre攻击代码
+本项目可以实现在ARM架构下使用retrowrite工具实现对二进制文件的插桩从而防御spectre攻击代码。
 
 ## 项目引用
 
