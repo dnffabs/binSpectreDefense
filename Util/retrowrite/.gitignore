@@ -1,0 +1,17 @@
+*.swp
+*.pyc
+testbins/build/
+retrowrite.wiki/
+__pycache__/
+# Sublime Text files
+*.sublime-project
+*.sublime-workspace
+# Kernel modules
+*.ko
+# Disassembled programs
+*.S
+# Analysis cache
+*.analysis_cache
+# Virtual environment
+retro/
+cftool/cftool
